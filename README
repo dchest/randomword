@@ -1,3 +1,12 @@
-randomword command prints random words from a list of 4096 words
-specifically selected to be easy to memorize when used in passphrases
-(taken from passwdqc).
+randomword -- print random words from a list of 4096 words specifically
+selected to be easy to memorize when used in passphrases (taken from passwdqc).
+
+USAGE
+
+    randomword [-c N] [-n] [-l]
+
+    Options:
+
+    -c N  Print N random words (by default, print one).
+    -n    Do not print the trailing new line character.
+    -l    Print each word on its own line.
