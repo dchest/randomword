@@ -20,7 +20,7 @@ func init() {
 		// generation of random words.
 		panic("number of words is not a power of two")
 	}
-	if len(words) > 1<<32-1 {
+	if len(words) > 1<<31-1 {
 		panic("too many words")
 	}
 }
